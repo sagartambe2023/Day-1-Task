@@ -1,0 +1,18 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+HTTP/1.1
+1.Establishes a new connection for each request-response cycle.
+2.Every HTTP request and response comes with a set of headers containing metadata
+3.Browsers in HTTP/1.1 have a restriction called the 'six connections per domain' limit,
+which means only six resources can be loaded concurrently from a single domain.
+HTTP/2
+1.One of the most significant improvements in HTTP/2 is the introduction of multiplexing.
+2.HTTP/2 uses a more efficient header compression algorithm (HPACK) to reduce the size of headers, 
+minimizing the overhead associated with each request and response.
+
+Write a blog about objects and its internal representation in Javascript
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. 
+These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) 
+in the sense that while these primitive data-types all store a single value each (depending on their types).
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. 
+That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
